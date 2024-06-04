@@ -1,2 +1,3 @@
-﻿  Test.cpp
-  Physics-Engine.vcxproj -> C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\x64\Debug\Physics-Engine.exe
+﻿  Collision.cpp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\jjoli\OneDrive\Escritorio\Github\Physics-Engine\Physics-Engine\x64\Debug\Physics-Engine.exe : fatal error LNK1120: 1 externos sin resolver

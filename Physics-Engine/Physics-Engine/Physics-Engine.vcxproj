@@ -18,13 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Test.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d5da2713-a7e8-4c7f-bb04-275d067f421c}</ProjectGuid>
+    <ProjectGuid>{1e093f22-f70a-4163-8259-be53d3fab929}</ProjectGuid>
     <RootNamespace>PhysicsEngine</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -73,10 +70,6 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\Joselu\Desktop\Github\Physics-Engine\vclib\SDL2-2.30.3\include;C:\Users\Joselu\Desktop\Github\Physics-Engine\vclib\SDL2_image-2.8.2\include;C:\Users\Joselu\Desktop\Github\Physics-Engine\vclib\SDL2_mixer-2.8.0\include;C:\Users\Joselu\Desktop\Github\Physics-Engine\vclib\SDL2_ttf-2.22.0\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Joselu\Desktop\Github\Physics-Engine\vclib\SDL2_ttf-2.22.0\lib\x64;C:\Users\Joselu\Desktop\Github\Physics-Engine\vclib\SDL2_mixer-2.8.0\lib\x64;C:\Users\Joselu\Desktop\Github\Physics-Engine\vclib\SDL2_image-2.8.2\lib\x64;C:\Users\Joselu\Desktop\Github\Physics-Engine\vclib\SDL2-2.30.3\lib\x64;$(LibraryPath)</LibraryPath>
-  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -115,7 +108,6 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;SDL2main.lib;SDL2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -134,6 +126,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Physics-Engine\Physics-Engine\Collision.hpp" />
+    <ClInclude Include="..\..\..\..\Physics-Engine\Physics-Engine\Vector3.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Physics-Engine\Physics-Engine\Collision.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

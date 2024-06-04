@@ -1,10 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\",
+  "WorkspaceRootPath": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5DA2713-A7E8-4C7F-BB04-275D067F421C}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D5DA2713-A7E8-4C7F-BB04-275D067F421C}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\jjoli\\OneDrive\\Escritorio\\Physics-Engine\\Physics-Engine\\Collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\jjoli\\OneDrive\\Escritorio\\Physics-Engine\\Physics-Engine\\Vector3.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\jjoli\\OneDrive\\Escritorio\\Physics-Engine\\Physics-Engine\\Collision.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +19,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vector3.hpp",
+              "DocumentMoniker": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Physics-Engine\\Physics-Engine\\Vector3.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Physics-Engine\\Physics-Engine\\Vector3.hpp",
+              "ToolTip": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Physics-Engine\\Physics-Engine\\Vector3.hpp",
+              "RelativeToolTip": "..\\..\\..\\Physics-Engine\\Physics-Engine\\Vector3.hpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-04T08:05:56.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Test.cpp",
-              "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Test.cpp",
-              "RelativeDocumentMoniker": "Physics-Engine\\Test.cpp",
-              "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Test.cpp",
-              "RelativeToolTip": "Physics-Engine\\Test.cpp",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Title": "Collision.cpp",
+              "DocumentMoniker": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Physics-Engine\\Physics-Engine\\Collision.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Physics-Engine\\Physics-Engine\\Collision.cpp",
+              "ToolTip": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Physics-Engine\\Physics-Engine\\Collision.cpp",
+              "RelativeToolTip": "..\\..\\..\\Physics-Engine\\Physics-Engine\\Collision.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-03T18:24:09.353Z",
+              "WhenOpened": "2024-06-04T08:04:26.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Collision.hpp",
+              "DocumentMoniker": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Physics-Engine\\Physics-Engine\\Collision.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Physics-Engine\\Physics-Engine\\Collision.hpp",
+              "ToolTip": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Physics-Engine\\Physics-Engine\\Collision.hpp",
+              "RelativeToolTip": "..\\..\\..\\Physics-Engine\\Physics-Engine\\Collision.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-04T08:00:42.337Z",
               "EditorCaption": ""
             }
           ]

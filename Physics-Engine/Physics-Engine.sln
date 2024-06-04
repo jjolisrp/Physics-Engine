@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34607.119
+VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physics-Engine", "Physics-Engine\Physics-Engine.vcxproj", "{D5DA2713-A7E8-4C7F-BB04-275D067F421C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physics-Engine", "Physics-Engine\Physics-Engine.vcxproj", "{1E093F22-F70A-4163-8259-BE53D3FAB929}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test-Juego", "Test-Juego\Test-Juego.vcxproj", "{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +15,27 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D5DA2713-A7E8-4C7F-BB04-275D067F421C}.Debug|x64.ActiveCfg = Debug|x64
-		{D5DA2713-A7E8-4C7F-BB04-275D067F421C}.Debug|x64.Build.0 = Debug|x64
-		{D5DA2713-A7E8-4C7F-BB04-275D067F421C}.Debug|x86.ActiveCfg = Debug|Win32
-		{D5DA2713-A7E8-4C7F-BB04-275D067F421C}.Debug|x86.Build.0 = Debug|Win32
-		{D5DA2713-A7E8-4C7F-BB04-275D067F421C}.Release|x64.ActiveCfg = Release|x64
-		{D5DA2713-A7E8-4C7F-BB04-275D067F421C}.Release|x64.Build.0 = Release|x64
-		{D5DA2713-A7E8-4C7F-BB04-275D067F421C}.Release|x86.ActiveCfg = Release|Win32
-		{D5DA2713-A7E8-4C7F-BB04-275D067F421C}.Release|x86.Build.0 = Release|Win32
+		{1E093F22-F70A-4163-8259-BE53D3FAB929}.Debug|x64.ActiveCfg = Debug|x64
+		{1E093F22-F70A-4163-8259-BE53D3FAB929}.Debug|x64.Build.0 = Debug|x64
+		{1E093F22-F70A-4163-8259-BE53D3FAB929}.Debug|x86.ActiveCfg = Debug|Win32
+		{1E093F22-F70A-4163-8259-BE53D3FAB929}.Debug|x86.Build.0 = Debug|Win32
+		{1E093F22-F70A-4163-8259-BE53D3FAB929}.Release|x64.ActiveCfg = Release|x64
+		{1E093F22-F70A-4163-8259-BE53D3FAB929}.Release|x64.Build.0 = Release|x64
+		{1E093F22-F70A-4163-8259-BE53D3FAB929}.Release|x86.ActiveCfg = Release|Win32
+		{1E093F22-F70A-4163-8259-BE53D3FAB929}.Release|x86.Build.0 = Release|Win32
+		{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}.Debug|x64.ActiveCfg = Debug|x64
+		{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}.Debug|x64.Build.0 = Debug|x64
+		{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}.Debug|x86.ActiveCfg = Debug|Win32
+		{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}.Debug|x86.Build.0 = Debug|Win32
+		{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}.Release|x64.ActiveCfg = Release|x64
+		{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}.Release|x64.Build.0 = Release|x64
+		{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}.Release|x86.ActiveCfg = Release|Win32
+		{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9DD274E9-8298-4E65-A742-0F080DBA5D8D}
+		SolutionGuid = {996FC526-3A80-44DC-9518-16F409BCEBE9}
 	EndGlobalSection
 EndGlobal
