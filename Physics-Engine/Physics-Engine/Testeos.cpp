@@ -1,9 +1,10 @@
 #include "Vector3.hpp"
+#include "Vector2.hpp"
 
 int main()
 {
-	Vector3 v1;
-	Vector3 v2;
+	Vector2 v1;
+	Vector2 v2;
 
 	v1.x = 50;
 	v1.y = 10;
@@ -14,7 +15,7 @@ int main()
 	v1.print();
 	v2.print();
 
-	Vector3 v3;
+	Vector2 v3;
 
 	v3 = v1 + v2;
 

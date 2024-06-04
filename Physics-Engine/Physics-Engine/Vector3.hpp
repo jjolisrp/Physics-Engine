@@ -14,7 +14,7 @@ struct Vector3
 	float GetLength() const {
 		return sqrt(x * x + y * y + z * z);
 	}
-	
+
 	//Obtener la distancia de un vector a otro
 	float GetDistance(const Vector3& Other) const {
 		using namespace std;
@@ -67,6 +67,7 @@ struct Vector3
 		x += Other.x;
 		y += Other.y;
 		z += Other.z;
+		return *this;
 	}
 
 	//Resta el vector actual con otro vector y guarda el resultado en la variable
@@ -75,6 +76,7 @@ struct Vector3
 		x -= Other.x;
 		y -= Other.y;
 		z -= Other.z;
+		return *this;
 	}
 
 	//Multiplica el vector con un escalar y guarda el resultado en la variable
@@ -83,6 +85,7 @@ struct Vector3
 		x *= multiplier;
 		y *= multiplier;
 		z *= multiplier;
+		return *this;
 	}
 
 	//Divide el vector con un escalar y guarda el resultado en la variable
@@ -91,6 +94,7 @@ struct Vector3
 		x /= divisor;
 		y /= divisor;
 		z /= divisor;
+		return *this;
 	}
 
 	//Usa el vector unitario para negar todo el vector

@@ -127,12 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Physics-Engine\Physics-Engine\Collision.hpp" />
-    <ClInclude Include="..\..\..\..\Physics-Engine\Physics-Engine\Vector3.hpp" />
+    <ClInclude Include="Collision.hpp" />
     <ClInclude Include="Vector2.hpp" />
+    <ClInclude Include="Vector3.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Physics-Engine\Physics-Engine\Collision.cpp" />
+    <ClCompile Include="Collision.cpp" />
     <ClCompile Include="Testeos.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
