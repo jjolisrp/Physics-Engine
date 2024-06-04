@@ -1,0 +1,2 @@
+﻿  Test.cpp
+C:\Users\jjoli\OneDrive\Escritorio\Physics-Engine\Physics-Engine\Test.cpp(5,10): error C1083: No se puede abrir el archivo incluir: 'SDL.h': No such file or directory

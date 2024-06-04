@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Physics-Engine\Physics-Engine\Collision.hpp" />
     <ClInclude Include="..\..\..\..\Physics-Engine\Physics-Engine\Vector3.hpp" />
+    <ClInclude Include="Vector2.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Physics-Engine\Physics-Engine\Collision.cpp" />
+    <ClCompile Include="Testeos.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

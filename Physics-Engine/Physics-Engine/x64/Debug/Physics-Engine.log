@@ -1,3 +1,8 @@
 ﻿  Collision.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\jjoli\OneDrive\Escritorio\Github\Physics-Engine\Physics-Engine\x64\Debug\Physics-Engine.exe : fatal error LNK1120: 1 externos sin resolver
+  Testeos.cpp
+C:\Users\jjoli\OneDrive\Escritorio\Physics-Engine\Physics-Engine\Vector3.hpp(15,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\jjoli\OneDrive\Escritorio\Physics-Engine\Physics-Engine\Vector3.hpp(21,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\jjoli\OneDrive\Escritorio\Physics-Engine\Physics-Engine\Collision.hpp(5,10): error C1083: No se puede abrir el archivo incluir: 'Vector2.hpp': No such file or directory
+C:\Users\jjoli\OneDrive\Escritorio\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector3.hpp(15,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\jjoli\OneDrive\Escritorio\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector3.hpp(21,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  Generando código...
