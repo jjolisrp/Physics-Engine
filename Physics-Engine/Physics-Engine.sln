@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Physics-Engine", "Physics-Engine\Physics-Engine.vcxproj", "{1E093F22-F70A-4163-8259-BE53D3FAB929}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test-Juego", "Test-Juego\Test-Juego.vcxproj", "{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E093F22-F70A-4163-8259-BE53D3FAB929} = {1E093F22-F70A-4163-8259-BE53D3FAB929}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

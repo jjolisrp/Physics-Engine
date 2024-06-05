@@ -1,6 +1,14 @@
 ﻿  Testeos.cpp
-C:\Users\jjoli\OneDrive\Escritorio\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector3.hpp(15,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\jjoli\OneDrive\Escritorio\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector3.hpp(21,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\jjoli\OneDrive\Escritorio\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector2.hpp(14,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\jjoli\OneDrive\Escritorio\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector2.hpp(20,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
-  Physics-Engine.vcxproj -> C:\Users\jjoli\OneDrive\Escritorio\Github\Physics-Engine\Physics-Engine\x64\Debug\Physics-Engine.exe
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector3.hpp(15,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Testeos.cpp")
+  
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector3.hpp(21,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Testeos.cpp")
+  
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector2.hpp(14,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Testeos.cpp")
+  
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector2.hpp(20,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Testeos.cpp")
+  
+  Physics-Engine.vcxproj -> C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\x64\Debug\Physics-Engine.exe

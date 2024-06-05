@@ -1,8 +1,10 @@
 #include "Vector3.hpp"
 #include "Vector2.hpp"
+#include "Collision.hpp"
 
 int main()
 {
+	//PRUEBAS DE LOS VECTORES (FUNCIONAN)
 	Vector2 v1;
 	Vector2 v2;
 
@@ -26,4 +28,47 @@ int main()
 
 	float distancia = v1.GetDistance(v2);
 	printf("Ditancia entre v1 y v2: %f\n", distancia);
+
+	
+	//Pruebas Colisiones BoxToBox (Funciona)
+	int respuesta;
+
+	Collision* c;
+	c = new Collision();
+
+	AABB box1;
+	box1.min = Vector2{ 0.0f, 0.0f };
+	box1.max = Vector2{ 1.0f, 1.0f };
+
+	AABB box2;
+	box2.min = Vector2{ 0.5f, 0.5f };
+	box2.max = Vector2{ 1.5f, 1.5f };
+
+	respuesta = c->CheckBoxToBoxCollision(box1, box2);
+	
+	if (respuesta == 1)
+	{
+		printf("Colisiona!!!\n");
+	}
+	else
+	{
+		printf("No Colisiona\n");
+	}
+
+	box1.min = Vector2{ 0.0f, 0.0f };
+	box1.max = Vector2{ 1.0f, 1.0f };
+
+	box2.min = Vector2{ 2.0f, 2.0f };
+	box2.max = Vector2{ 3.0f, 3.0f };
+
+	respuesta = c->CheckBoxToBoxCollision(box1, box2);
+
+	if (respuesta == 1)
+	{
+		printf("Colisiona!!!\n");
+	}
+	else
+	{
+		printf("No Colisiona\n");
+	}
 }
