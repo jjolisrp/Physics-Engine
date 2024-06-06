@@ -36,11 +36,11 @@ int main()
 	Collision* c;
 	c = new Collision();
 
-	AABB box1;
+	Box box1;
 	box1.min = Vector2{ 0.0f, 0.0f };
 	box1.max = Vector2{ 1.0f, 1.0f };
 
-	AABB box2;
+	Box box2;
 	box2.min = Vector2{ 0.5f, 0.5f };
 	box2.max = Vector2{ 1.5f, 1.5f };
 
@@ -62,6 +62,39 @@ int main()
 	box2.max = Vector2{ 3.0f, 3.0f };
 
 	respuesta = c->CheckBoxToBoxCollision(box1, box2);
+
+	if (respuesta == 1)
+	{
+		printf("Colisiona!!!\n");
+	}
+	else
+	{
+		printf("No Colisiona\n");
+	}
+
+	//Pruebas colisiones CircleToCirlce (Funciona)
+	Circle circle1;
+	circle1.center = Vector2{ 0.0f, 0.0f };
+	circle1.radius = 3.0f;
+
+	Circle circle2;
+	circle2.center = Vector2{ 6.0f, 6.0f };
+	circle2.radius = 2.0f;
+
+	respuesta = c->CheckCircleToCircleCollision(circle1, circle2);
+
+	if (respuesta == 1)
+	{
+		printf("Colisiona!!!\n");
+	}
+	else
+	{
+		printf("No Colisiona\n");
+	}
+
+	//Pruebas colisiones CircleToBox (Funciona)
+
+	respuesta = c->CheckBoxToCircleCollision(circle1, box1);
 
 	if (respuesta == 1)
 	{
