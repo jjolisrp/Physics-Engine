@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\",
+  "WorkspaceRootPath": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\RigidBody.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\RigidBody.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Testeos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Physics-Engine\\Testeos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Dibujado.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Dibujado.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Test.cpp",
-              "DocumentMoniker": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Test.cpp",
-              "RelativeDocumentMoniker": "Test-Juego\\Test.cpp",
-              "ToolTip": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Test.cpp",
-              "RelativeToolTip": "Test-Juego\\Test.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-06T10:12:14.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RigidBody.hpp",
-              "DocumentMoniker": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.hpp",
-              "RelativeDocumentMoniker": "Physics-Engine\\RigidBody.hpp",
-              "ToolTip": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.hpp",
-              "RelativeToolTip": "Physics-Engine\\RigidBody.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-06T09:48:54.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RigidBody.cpp",
-              "DocumentMoniker": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.cpp",
-              "RelativeDocumentMoniker": "Physics-Engine\\RigidBody.cpp",
-              "ToolTip": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.cpp",
-              "RelativeToolTip": "Physics-Engine\\RigidBody.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Title": "Dibujado.cpp",
+              "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Dibujado.cpp",
+              "RelativeDocumentMoniker": "Test-Juego\\Dibujado.cpp",
+              "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Dibujado.cpp",
+              "RelativeToolTip": "Test-Juego\\Dibujado.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-06T09:48:42.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Testeos.cpp",
-              "DocumentMoniker": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Testeos.cpp",
-              "RelativeDocumentMoniker": "Physics-Engine\\Testeos.cpp",
-              "ToolTip": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Testeos.cpp",
-              "RelativeToolTip": "Physics-Engine\\Testeos.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-06T09:38:44.487Z",
+              "WhenOpened": "2024-06-06T17:48:43.826Z",
               "EditorCaption": ""
             }
           ]
