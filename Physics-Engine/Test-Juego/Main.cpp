@@ -3,5 +3,8 @@
 
 int main(int argc, char* args[])
 {
+	Game game;
+	game.Loop();
+
 	return 0;
 }

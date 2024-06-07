@@ -18,6 +18,7 @@ public:
 
 	SDL_Rect getDest() const { return dest; }
 	SDL_Rect getSource() const { return src; }
+	SDL_Texture* getTexture() const { return texture; }
 
 	void SetDest(int x, int y, int w, int h);
 	void SetSource(int x, int y, int w, int h);

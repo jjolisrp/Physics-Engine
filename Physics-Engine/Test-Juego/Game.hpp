@@ -5,6 +5,7 @@
 #include <iostream>
 #include <SDL_image.h>
 using namespace std;
+#include "Object.hpp"
 
 class Game
 {
@@ -13,7 +14,8 @@ private:
 	SDL_Renderer* renderer = NULL;
 	bool running;
 	int count;
-	int frameCount, timerFPS, lastFrame;
+	int frameCount, timerFPS, lastFrame, fps;
+	Object object1;
 
 public:
 	Game();
@@ -25,6 +27,8 @@ public:
 	void Renderer();
 
 	void Input();
+
+	void Draw(Object o);
 
 	~Game();
 };
