@@ -1,8 +1,10 @@
 #ifndef __GAME_HPP__
 #define __GAME_HPP__
 
-#include <iostream>
 #include <SDL.h>
+#include <iostream>
+#include <SDL_image.h>
+using namespace std;
 
 class Game
 {
