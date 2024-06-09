@@ -10,12 +10,14 @@ Game::Game()
 	SDL_CreateWindowAndRenderer(SCREEN_WIDTH, SCREEN_HEIGH, 0, &window, &renderer);
 	SDL_SetWindowTitle(window, "First Game");
 
+	TTF_Init();
+
 	running = true;
 	count = 0;
 
-	object1.SetDest(100, 100, 315, 250);
-	object1.SetSource(0, 0, 315, 250);
-	object1.SetImage("Ratón.png", renderer);
+	object1.SetDest(100, 100, 75, 75);
+	object1.SetSource(0, 0, 75, 75);
+	object1.SetImage("Raton.png", renderer);
 
 	Loop();
 }
@@ -39,7 +41,8 @@ void Game::Loop()
 		Input();
 		Update();
 
-		if (count > 3)
+		//Finaliza el programa en funcion de los bubcles
+		if (count > 5)
 		{
 			running = false;
 		}
@@ -61,6 +64,7 @@ void Game::Renderer()
 	SDL_RenderFillRect(renderer, &rect);
 
 	Draw(object1);
+	DrawFonts("GAMEPLAY", 20, 30, 0, 0, 0, 24);
 
 	frameCount++;
 	int timerFPS = SDL_GetTicks() - lastFrame;
@@ -84,8 +88,36 @@ void Game::Draw(Object o)
 	SDL_RenderCopy(renderer, o.getTexture(), &src, &dest);
 }
 
+void Game::DrawFonts(const char* message, int x, int y, int r, int g, int b, int size)
+{
+	SDL_Surface* surface;
+	SDL_Texture* texture;
+
+	TTF_Font* font = TTF_OpenFont("Sixty.ttf", size);
+
+	SDL_Color color;
+	color.r = r;
+	color.g = g;
+	color.b = b;
+	color.a = 255;
+
+	SDL_Rect rect;
+	surface = TTF_RenderText_Solid(font, message, color);
+
+	texture = SDL_CreateTextureFromSurface(renderer, surface);
+	rect.x = x;
+	rect.y = y;
+	rect.w = surface->w;
+	rect.h = surface->h;
+
+	SDL_FreeSurface(surface);
+	SDL_RenderCopy(renderer, texture, NULL, &rect);
+	SDL_DestroyTexture(texture);
+}
+
 Game::~Game()
 {
+	TTF_Quit();
 	SDL_DestroyRenderer(renderer);
 	SDL_DestroyWindow(window);
 	SDL_Quit();
