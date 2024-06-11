@@ -6,7 +6,7 @@ int SCREEN_HEIGH = 720;
 
 Game::Game()
 {
-	SDL_Init(0);
+	SDL_Init(SDL_INIT_EVERYTHING);
 	SDL_CreateWindowAndRenderer(SCREEN_WIDTH, SCREEN_HEIGH, 0, &window, &renderer);
 	SDL_SetWindowTitle(window, "First Game");
 
@@ -18,6 +18,11 @@ Game::Game()
 	object1.SetDest(100, 100, 75, 75);
 	object1.SetSource(0, 0, 75, 75);
 	object1.SetImage("Raton.png", renderer);
+
+	font = TTF_OpenFont("Sixty.ttf", 24);
+
+	effect.Load("Retro.wav");
+	effect.Play();
 
 	Loop();
 }
@@ -33,19 +38,21 @@ void Game::Loop()
 			lastTime = lastFrame;
 			fps = frameCount;
 			frameCount = 0;
-			count++;
+			//count++;
 		}
-		printf("fps: %d\n", fps);
+		
+		//printf("fps: %d\n", fps);
+		//printf("MouseX: %d MouseY: %d\n", mouseX, mouseY);
 
 		Renderer();
 		Input();
 		Update();
 
 		//Finaliza el programa en funcion de los bubcles
-		if (count > 5)
+		/*if (count > 5)
 		{
 			running = false;
-		}
+		}*/
 	}
 }
 
@@ -64,7 +71,7 @@ void Game::Renderer()
 	SDL_RenderFillRect(renderer, &rect);
 
 	Draw(object1);
-	DrawFonts("GAMEPLAY", 20, 30, 0, 0, 0, 24);
+	DrawFonts("GAMEPLAY", 20, 30, 0, 0, 0);
 
 	frameCount++;
 	int timerFPS = SDL_GetTicks() - lastFrame;
@@ -78,7 +85,38 @@ void Game::Renderer()
 
 void Game::Input()
 {
+	SDL_Event e;
 
+	while (SDL_PollEvent(&e))
+	{
+		//EVENTOS DE TECLADO
+		if (e.type == SDL_QUIT)
+		{
+			running = false;
+			cout << "Quitting" << endl;
+		}
+
+		if (e.type == SDL_KEYDOWN)
+		{
+			if (e.key.keysym.sym == SDLK_ESCAPE)
+			{
+				running = false;
+			}
+
+			if (e.key.keysym.sym == SDLK_w)
+			{
+				cout << "w down" << endl;
+			}
+		}
+
+		if (e.type = SDL_KEYUP)
+		{
+			
+		}
+
+		//EVENTOS DE MOUSE
+		SDL_GetMouseState(&mouseX, &mouseY);
+	}
 }
 
 void Game::Draw(Object o)
@@ -88,12 +126,10 @@ void Game::Draw(Object o)
 	SDL_RenderCopy(renderer, o.getTexture(), &src, &dest);
 }
 
-void Game::DrawFonts(const char* message, int x, int y, int r, int g, int b, int size)
+void Game::DrawFonts(const char* message, int x, int y, int r, int g, int b)
 {
 	SDL_Surface* surface;
 	SDL_Texture* texture;
-
-	TTF_Font* font = TTF_OpenFont("Sixty.ttf", size);
 
 	SDL_Color color;
 	color.r = r;

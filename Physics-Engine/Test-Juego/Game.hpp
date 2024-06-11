@@ -7,16 +7,20 @@
 #include <SDL_ttf.h>
 using namespace std;
 #include "Object.hpp"
+#include "Audio.hpp"
 
 class Game
 {
 private:
 	SDL_Window* window = NULL;
 	SDL_Renderer* renderer = NULL;
+	TTF_Font* font;
 	bool running;
 	int count;
 	int frameCount, timerFPS, lastFrame, fps;
 	Object object1;
+	int mouseX, mouseY;
+	Audio effect;
 
 
 public:
@@ -32,7 +36,7 @@ public:
 
 	void Draw(Object o);
 
-	void DrawFonts(const char* message, int x, int y, int r, int g, int b, int size);
+	void DrawFonts(const char* message, int x, int y, int r, int g, int b);
 
 	~Game();
 };
