@@ -24,6 +24,12 @@ Game::Game()
 	effect.Load("Retro.wav");
 	effect.Play();
 
+	player.SetImage("Player.png", renderer);
+	player.SetDest(100, 100, 47*3, 45*3);
+	idle = player.CreateCycle(1, 47, 45, 5, 20);
+	idle = player.CreateCycle(6, 47, 45, 5, 20);
+	player.SetCurrentAnimation(idle);
+
 	Loop();
 }
 
@@ -58,7 +64,7 @@ void Game::Loop()
 
 void Game::Update()
 {
-
+	player.UpdateAnimation();
 }
 
 void Game::Renderer()
@@ -72,6 +78,7 @@ void Game::Renderer()
 
 	Draw(object1);
 	DrawFonts("GAMEPLAY", 20, 30, 0, 0, 0);
+	Draw(player);
 
 	frameCount++;
 	int timerFPS = SDL_GetTicks() - lastFrame;
@@ -106,6 +113,11 @@ void Game::Input()
 			if (e.key.keysym.sym == SDLK_w)
 			{
 				cout << "w down" << endl;
+			}
+
+			if (e.key.keysym.sym == SDLK_e)
+			{
+				player.SetCurrentAnimation(shoot);
 			}
 		}
 

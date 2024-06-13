@@ -8,6 +8,7 @@
 using namespace std;
 #include "Object.hpp"
 #include "Audio.hpp"
+#include "Entity.hpp"
 
 class Game
 {
@@ -21,6 +22,8 @@ private:
 	Object object1;
 	int mouseX, mouseY;
 	Audio effect;
+	Entity player;
+	int idle, shoot;
 
 
 public:
