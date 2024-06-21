@@ -42,6 +42,8 @@ public:
 
 	void UpdateAnimation();
 
+	void RestartAnimation();
+
 	~Entity();
 };
 

@@ -1,3 +1,2 @@
-﻿  Entity.cpp
-C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Entity.cpp(20,27): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+﻿  Game.cpp
   Test-Juego.vcxproj -> C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\x64\Debug\Test-Juego.exe

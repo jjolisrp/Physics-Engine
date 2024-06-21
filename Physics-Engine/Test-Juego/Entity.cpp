@@ -37,6 +37,11 @@ void Entity::UpdateAnimation()
 	}
 }
 
+void Entity::RestartAnimation()
+{
+	animations[curAnimation].tick = 0;
+}
+
 Entity::~Entity()
 {
 	

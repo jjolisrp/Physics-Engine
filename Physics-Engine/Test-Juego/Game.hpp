@@ -23,7 +23,7 @@ private:
 	int mouseX, mouseY;
 	Audio effect;
 	Entity player;
-	int idle, shoot;
+	int idle, shootR, shootL;
 
 
 public:

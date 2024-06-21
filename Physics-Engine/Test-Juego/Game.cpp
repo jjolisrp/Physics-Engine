@@ -26,8 +26,9 @@ Game::Game()
 
 	player.SetImage("Player.png", renderer);
 	player.SetDest(100, 100, 47*3, 45*3);
-	idle = player.CreateCycle(1, 47, 45, 5, 20);
-	idle = player.CreateCycle(6, 47, 45, 5, 20);
+	idle = player.CreateCycle(1, 96, 90, 5, 20);
+	shootR = player.CreateCycle(6, 96, 95, 5, 10);
+	shootL = player.CreateCycle(5, 96, 95, 5, 10);
 	player.SetCurrentAnimation(idle);
 
 	Loop();
@@ -112,12 +113,22 @@ void Game::Input()
 
 			if (e.key.keysym.sym == SDLK_w)
 			{
-				cout << "w down" << endl;
+				
+			}
+		}
+
+		if (e.type == SDL_MOUSEBUTTONDOWN)
+		{
+			if (e.button.button == SDL_BUTTON_LEFT)
+			{
+				player.SetCurrentAnimation(shootL);
+				player.RestartAnimation();
 			}
 
-			if (e.key.keysym.sym == SDLK_e)
+			if (e.button.button == SDL_BUTTON_RIGHT)
 			{
-				player.SetCurrentAnimation(shoot);
+				player.SetCurrentAnimation(shootR);
+				player.RestartAnimation();
 			}
 		}
 
