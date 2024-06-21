@@ -110,11 +110,6 @@ void Game::Input()
 			{
 				running = false;
 			}
-
-			if (e.key.keysym.sym == SDLK_w)
-			{
-				
-			}
 		}
 
 		if (e.type == SDL_MOUSEBUTTONDOWN)
@@ -122,19 +117,25 @@ void Game::Input()
 			if (e.button.button == SDL_BUTTON_LEFT)
 			{
 				player.SetCurrentAnimation(shootL);
-				player.RestartAnimation();
 			}
 
 			if (e.button.button == SDL_BUTTON_RIGHT)
 			{
 				player.SetCurrentAnimation(shootR);
-				player.RestartAnimation();
 			}
 		}
 
-		if (e.type = SDL_KEYUP)
+		if (e.type == SDL_MOUSEBUTTONUP)
 		{
-			
+			if (e.button.button == SDL_BUTTON_LEFT)
+			{
+				player.ReverseAndAnimation(1, idle);
+			}
+
+			if (e.button.button == SDL_BUTTON_RIGHT)
+			{
+				player.ReverseAndAnimation(1, idle);
+			}
 		}
 
 		//EVENTOS DE MOUSE

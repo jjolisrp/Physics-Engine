@@ -25,6 +25,10 @@ private:
 
 	int begin;
 
+	bool reverse, nAb;
+
+	int newAnimation;
+
 public:
 	Entity();
 
@@ -42,7 +46,9 @@ public:
 
 	void UpdateAnimation();
 
-	void RestartAnimation();
+	void Reverse(bool r);
+
+	void ReverseAndAnimation(bool r, int nA);
 
 	~Entity();
 };

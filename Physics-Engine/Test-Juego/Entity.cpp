@@ -2,7 +2,7 @@
 
 Entity::Entity()
 {
-
+	reverse = 0;
 }
 
 int Entity::CreateCycle(int row, int w, int h, int amount, int speed)
@@ -25,7 +25,16 @@ void Entity::UpdateAnimation()
 	SetSource(animations[curAnimation].w * animations[curAnimation].tick, animations[curAnimation].row* animations[curAnimation].h, animations[curAnimation].w, animations[curAnimation].h);
 	if (begin > animations[curAnimation].speed)
 	{
-		animations[curAnimation].tick++;
+		if (!reverse)
+		{
+			animations[curAnimation].tick++;
+		}
+
+		if (reverse)
+		{
+			animations[curAnimation].tick--;
+		}
+
 		begin = 0;
 	}
 
@@ -35,11 +44,32 @@ void Entity::UpdateAnimation()
 	{
 		animations[curAnimation].tick = 0;
 	}
+
+	if (animations[curAnimation].tick <= 0)
+	{
+		if (nAb)
+		{
+			curAnimation = newAnimation;
+			nAb = 0;
+			reverse = 0;
+		}
+		else
+		{
+			animations[curAnimation].tick = 0;
+		}
+	}
 }
 
-void Entity::RestartAnimation()
+void Entity::Reverse(bool r)
 {
-	animations[curAnimation].tick = 0;
+	reverse = r;
+}
+
+void Entity::ReverseAndAnimation(bool r, int nA)
+{
+	reverse = r;
+	nAb = 1;
+	nA = newAnimation;
 }
 
 Entity::~Entity()
