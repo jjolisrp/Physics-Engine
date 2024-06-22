@@ -2,7 +2,7 @@
 
 Object::Object()
 {
-
+	solid = 1;
 }
 
 void Object::SetDest(int x, int y, int w, int h)

@@ -5,6 +5,8 @@
 #include <iostream>
 #include <SDL_image.h>
 #include <SDL_ttf.h>
+#include <fstream>
+#include <vector>
 using namespace std;
 #include "Object.hpp"
 #include "Audio.hpp"
@@ -24,7 +26,7 @@ private:
 	Audio effect;
 	Entity player;
 	int idle, shootR, shootL;
-
+	vector<Object> map;
 
 public:
 	Game();
@@ -40,6 +42,10 @@ public:
 	void Draw(Object o);
 
 	void DrawFonts(const char* message, int x, int y, int r, int g, int b);
+
+	void LoadMap(const char* filename);
+
+	void DrawMap();
 
 	~Game();
 };
