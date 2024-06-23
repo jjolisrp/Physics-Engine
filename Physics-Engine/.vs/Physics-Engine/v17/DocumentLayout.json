@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\1.level||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Test-Juego\\1.level||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.cpp",
               "RelativeDocumentMoniker": "Test-Juego\\Game.cpp",
               "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.cpp",
               "RelativeToolTip": "Test-Juego\\Game.cpp",
-              "ViewState": "AQIAALYAAAAAAAAAAAAkwMQAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-07T09:28:36.713Z",
               "IsPinned": true,
@@ -48,12 +48,11 @@
               "RelativeToolTip": "Test-Juego\\Game.hpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-06-07T09:38:32.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T09:38:32.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "1.level",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\1.level",
               "RelativeDocumentMoniker": "Test-Juego\\1.level",
