@@ -34,15 +34,20 @@ Game::Game()
 
 	LoadMap("1.level");
 
+	mapX = mapY = 0;
+
+	scrollSpeed = 1;
+
 	Loop();
 }
 
 void Game::Loop()
 {
+	static int lastTime = 0;
+
 	while (running)
 	{
 		lastFrame = SDL_GetTicks();
-		static int lastTime;
 		if (lastFrame >= (lastTime + 1000))
 		{
 			lastTime = lastFrame;
@@ -181,6 +186,10 @@ void Game::DrawFonts(const char* message, int x, int y, int r, int g, int b)
 
 void Game::LoadMap(const char* filename)
 {
+	Object tmp;
+
+	tmp.SetImage("tileset.png", renderer);
+
 	int current, mX, mY, mW, mH;
 
 	ifstream in(filename);
@@ -210,11 +219,10 @@ void Game::LoadMap(const char* filename)
 
 			if (current != 0)
 			{
-				Object tmp;
-				tmp.SetImage("tileset.png", renderer);
 				tmp.SetSource((current - 1) * TILE_SIZE, 0, TILE_SIZE, TILE_SIZE);
-				tmp.SetDest(j * TILE_SIZE, i * TILE_SIZE, TILE_SIZE, TILE_SIZE);
+				tmp.SetDest((j * TILE_SIZE) * mX, (i * TILE_SIZE) + mY, TILE_SIZE, TILE_SIZE);
 
+				//Esto sirve para los objetos que no tienen un alfa de 255, es decir, que tienen opacidad
 				/*if (current == 2 || current == 4)
 				{
 					tmp.SetSolid(0);
@@ -232,8 +240,16 @@ void Game::DrawMap()
 {
 	for (int i = 0; i < map.size(); i++)
 	{
-		Draw(map[i]);
+		if (map[i].getDX() >= mapX - TILE_SIZE && map[i].getDY() >= mapY - TILE_SIZE && map[i].getDX() <= mapX + SCREEN_WIDTH + TILE_SIZE && map[i].getDY() <= mapY + SCREEN_HEIGH + TILE_SIZE)
+		{
+			Draw(map[i]);
+		}
 	}
+}
+
+void Game::Scroll(int x, int y)
+{
+	//Esta función lo que hará es mover el mapa por la pantalla si lo necesitamos
 }
 
 Game::~Game()
@@ -242,5 +258,7 @@ Game::~Game()
 	TTF_Quit();
 	SDL_DestroyRenderer(renderer);
 	SDL_DestroyWindow(window);
+	IMG_Quit();
+	TTF_Quit();
 	SDL_Quit();
 }

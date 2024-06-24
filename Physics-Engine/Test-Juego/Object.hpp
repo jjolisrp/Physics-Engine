@@ -13,6 +13,7 @@ private:
 	SDL_Rect src;
 	SDL_Texture* texture;
 	bool solid;
+	int id;
 
 public:
 	Object();
@@ -21,6 +22,10 @@ public:
 	SDL_Rect getSource() const { return src; }
 	SDL_Texture* getTexture() const { return texture; }
 	bool getSolid() const { return solid; }
+	int getDX() { return dest.x; }
+	int getDY() { return dest.y; }
+	int getDW() { return dest.w; }
+	int getDH() { return dest.h; }
 
 	void SetDest(int x, int y, int w, int h);
 	void SetSource(int x, int y, int w, int h);

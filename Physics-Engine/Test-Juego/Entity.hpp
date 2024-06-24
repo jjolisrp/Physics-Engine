@@ -44,6 +44,8 @@ public:
 
 	void SetCurrentAnimation(int c) { begin = 0; curAnimation = c; }
 
+	int getCurrentAnimation() const { return curAnimation; }
+
 	void UpdateAnimation();
 
 	void Reverse(bool r);

@@ -27,6 +27,8 @@ private:
 	Entity player;
 	int idle, shootR, shootL;
 	vector<Object> map;
+	int mapX, mapY;
+	int scrollSpeed;
 
 public:
 	Game();
@@ -46,6 +48,8 @@ public:
 	void LoadMap(const char* filename);
 
 	void DrawMap();
+
+	void Scroll(int x, int y);
 
 	~Game();
 };

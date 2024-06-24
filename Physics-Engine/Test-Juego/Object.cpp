@@ -24,7 +24,8 @@ void Object::SetSource(int x, int y, int w, int h)
 void Object::SetImage(string filename, SDL_Renderer* renderer)
 {
 	SDL_Surface* surface = IMG_Load(filename.c_str());
-	texture = SDL_CreateTextureFromSurface(renderer, surface);
+	//texture = SDL_CreateTextureFromSurface(renderer, surface);
+	texture = IMG_LoadTexture(renderer, filename.c_str());
 }
 
 Object::~Object()
