@@ -25,12 +25,15 @@ Game::Game()
 	effect.Load("Retro.wav");
 	effect.Play();
 
-	//player.SetImage("Player.png", renderer);
-	//player.SetDest(100, 100, 47*3, 45*3);
-	//idle = player.CreateCycle(1, 96, 90, 5, 18);
-	//shootR = player.CreateCycle(6, 96, 95, 5, 10);
-	//shootL = player.CreateCycle(5, 96, 95, 5, 10);
-	//player.SetCurrentAnimation(idle);
+	player.SetImage("Player.png", renderer);
+	player.SetDest(300, 100, 100, 106);
+	idleR = player.CreateCycle(1, 96, 90, 5, 18);
+	idleL = player.CreateCycle(2, 96, 95, 5, 18);
+	walkR = player.CreateCycle(3, 96, 95, 8, 18);
+	walkL = player.CreateCycle(4, 96, 95, 8, 18);
+	shootR = player.CreateCycle(6, 96, 95, 5, 10);
+	shootL = player.CreateCycle(5, 96, 95, 5, 10);
+	player.SetCurrentAnimation(idleL);
 
 	LoadMap("1.level");
 
@@ -73,7 +76,23 @@ void Game::Loop()
 
 void Game::Update()
 {
-	/*player.UpdateAnimation();*/
+	if (l)
+	{
+		if (player.getCurrentAnimation() != walkL)
+		{
+			player.SetCurrentAnimation(walkL);
+		}
+	}
+
+	if (r)
+	{
+		if (player.getCurrentAnimation() != walkR)
+		{
+			player.SetCurrentAnimation(walkR);
+		}
+	}
+
+	player.UpdateAnimation();
 }
 
 void Game::Renderer()
@@ -86,8 +105,8 @@ void Game::Renderer()
 	SDL_RenderFillRect(renderer, &rect);
 
 	/*Draw(object1);
-	DrawFonts("GAMEPLAY", 20, 30, 0, 0, 0);
-	Draw(player);*/
+	DrawFonts("GAMEPLAY", 20, 30, 0, 0, 0);*/
+	Draw(player);
 	DrawMap();
 
 	frameCount++;
@@ -119,11 +138,60 @@ void Game::Input()
 			{
 				running = false;
 			}
+
+			if (e.key.keysym.sym == SDLK_d)
+			{
+				l = 1;
+				r = 0;
+			}
+
+			if (e.key.keysym.sym == SDLK_a)
+			{
+				r = 1;
+				l = 0;
+			}
+
+			if (e.key.keysym.sym == SDLK_w)
+			{
+				u = 1;
+			}
+
+			if (e.key.keysym.sym == SDLK_s)
+			{
+				d = 1;
+			}
+		}
+
+		if (e.type == SDL_KEYUP)
+		{
+			if (e.key.keysym.sym == SDLK_d)
+			{
+				l = 0;
+
+				player.ReverseAndAnimation(1, idleL);
+			}
+
+			if (e.key.keysym.sym == SDLK_a)
+			{
+				r = 0;
+
+				player.ReverseAndAnimation(1, idleR);
+			}
+
+			if (e.key.keysym.sym == SDLK_w)
+			{
+				u = 0;
+			}
+
+			if (e.key.keysym.sym == SDLK_s)
+			{
+				d = 0;
+			}
 		}
 
 		if (e.type == SDL_MOUSEBUTTONDOWN)
 		{
-			/*if (e.button.button == SDL_BUTTON_LEFT)
+			if (e.button.button == SDL_BUTTON_LEFT)
 			{
 				player.SetCurrentAnimation(shootL);
 			}
@@ -131,20 +199,20 @@ void Game::Input()
 			if (e.button.button == SDL_BUTTON_RIGHT)
 			{
 				player.SetCurrentAnimation(shootR);
-			}*/
+			}
 		}
 
 		if (e.type == SDL_MOUSEBUTTONUP)
 		{
-			/*if (e.button.button == SDL_BUTTON_LEFT)
+			if (e.button.button == SDL_BUTTON_LEFT)
 			{
-				player.ReverseAndAnimation(1, idle);
+				player.ReverseAndAnimation(1, idleL);
 			}
 
 			if (e.button.button == SDL_BUTTON_RIGHT)
 			{
-				player.ReverseAndAnimation(1, idle);
-			}*/
+				player.ReverseAndAnimation(1, idleR);
+			}
 		}
 
 		//EVENTOS DE MOUSE
@@ -219,8 +287,11 @@ void Game::LoadMap(const char* filename)
 
 			if (current != 0)
 			{
+				tmp.SetSolid(1);
 				tmp.SetSource((current - 1) * TILE_SIZE, 0, TILE_SIZE, TILE_SIZE);
 				tmp.SetDest((j * TILE_SIZE) * mX, (i * TILE_SIZE) + mY, TILE_SIZE, TILE_SIZE);
+
+				tmp.SetID(current);
 
 				//Esto sirve para los objetos que no tienen un alfa de 255, es decir, que tienen opacidad
 				/*if (current == 2 || current == 4)
@@ -249,7 +320,10 @@ void Game::DrawMap()
 
 void Game::Scroll(int x, int y)
 {
-	//Esta función lo que hará es mover el mapa por la pantalla si lo necesitamos
+	/*for (int i = 0; i < map.size(); i++)
+	{
+		map[i].SetDest(map[i].getDX() + x, map[i].getDY() + y);
+	}*/
 }
 
 Game::~Game()

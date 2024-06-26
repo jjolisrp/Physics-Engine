@@ -25,10 +25,11 @@ private:
 	int mouseX, mouseY;
 	Audio effect;
 	Entity player;
-	int idle, shootR, shootL;
+	int idleR, idleL, walkR, walkL, shootR, shootL;
 	vector<Object> map;
 	int mapX, mapY;
 	int scrollSpeed;
+	bool l, r, u, d;
 
 public:
 	Game();

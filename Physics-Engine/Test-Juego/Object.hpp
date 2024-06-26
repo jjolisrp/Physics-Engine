@@ -31,6 +31,7 @@ public:
 	void SetSource(int x, int y, int w, int h);
 	void SetImage(string filename, SDL_Renderer* renderer);
 	void SetSolid(bool s) { solid = s; }
+	void SetID(int i) { id = i; }
 
 	~Object();
 };

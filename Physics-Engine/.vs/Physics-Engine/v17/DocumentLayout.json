@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Object.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Object.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\Collision.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +36,7 @@
               "RelativeDocumentMoniker": "Test-Juego\\Game.cpp",
               "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.cpp",
               "RelativeToolTip": "Test-Juego\\Game.cpp",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFsAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-07T09:28:36.713Z",
               "IsPinned": true,
@@ -37,14 +45,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Object.hpp",
+              "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Object.hpp",
+              "RelativeDocumentMoniker": "Test-Juego\\Object.hpp",
+              "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Object.hpp",
+              "RelativeToolTip": "Test-Juego\\Object.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-26T17:57:04.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Game.hpp",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.hpp",
               "RelativeDocumentMoniker": "Test-Juego\\Game.hpp",
               "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.hpp",
               "RelativeToolTip": "Test-Juego\\Game.hpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADEAAAAQAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-07T09:38:32.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Collision.hpp",
+              "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.hpp",
+              "RelativeDocumentMoniker": "Physics-Engine\\Collision.hpp",
+              "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.hpp",
+              "RelativeToolTip": "Physics-Engine\\Collision.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-26T16:10:54.865Z",
               "EditorCaption": ""
             }
           ]
