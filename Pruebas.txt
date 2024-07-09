@@ -279,3 +279,37 @@ int main(int argc, char* args[])
 
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+CALCULO DE FPS DEL JUEGO
+
+
+//lastFrame = SDL_GetTicks();
+//if (lastFrame >= (lastTime + 1000))
+//{
+//	lastTime = lastFrame;
+//	fps = frameCount;
+//	frameCount = 0;
+//	//count++;
+//}
+
+//printf("fps: %d\n", fps);
+//printf("MouseX: %d MouseY: %d\n", mouseX, mouseY);
+
+
+
+/*frameCount++;
+int timerFPS = SDL_GetTicks() - lastFrame;
+deltaTime = timerFPS / 1000.0f;
+if (timerFPS < (1000 / 60))
+{
+	SDL_Delay((1000 / 60) - timerFPS);
+}*/

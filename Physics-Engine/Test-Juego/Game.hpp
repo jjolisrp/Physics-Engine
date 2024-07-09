@@ -19,8 +19,7 @@ private:
 	SDL_Renderer* renderer = NULL;
 	TTF_Font* font;
 	bool running;
-	int count;
-	int frameCount, timerFPS, lastFrame, fps;
+	//int count;
 	Object object1;
 	int mouseX, mouseY;
 	Audio effect;
@@ -30,6 +29,9 @@ private:
 	int mapX, mapY;
 	int scrollSpeed;
 	bool l, r, u, d;
+	float deltaTime, fps;
+	Uint32 lastTime, fpsTimer;
+	int frameCount;
 
 public:
 	Game();

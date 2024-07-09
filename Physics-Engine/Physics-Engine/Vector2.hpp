@@ -23,6 +23,14 @@ struct Vector2
 		);
 	}
 
+	float GetComponentX() const {
+		return x;
+	}
+
+	float GetComponentY() const {
+		return y;
+	}
+
 	//Suma de dos vectores
 	Vector2 operator+ (const Vector2& Other) const {
 		return Vector2{

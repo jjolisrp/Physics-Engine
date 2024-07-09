@@ -4,6 +4,7 @@
 #include <SDL.h>
 #include <vector>
 #include "Object.hpp"
+#include "RigidBody.hpp"
 
 class Entity : public Object
 {
@@ -30,6 +31,9 @@ private:
 	int newAnimation;
 
 public:
+
+	RigidBody rb;
+
 	Entity();
 
 	void SetHealth(int h) { health = h; }

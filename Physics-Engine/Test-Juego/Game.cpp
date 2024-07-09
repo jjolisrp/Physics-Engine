@@ -4,6 +4,10 @@
 const int SCREEN_WIDTH = 750;
 const int SCREEN_HEIGH = 500;
 const int TILE_SIZE = 25;
+const int NORMAL_PLAYER_WIDTH = 100;
+const int NORMAL_PLAYER_HEIGH = 106;
+const int VELOCITY_X = 50;
+const int VELOCITY_Y = 5;
 
 Game::Game()
 {
@@ -14,7 +18,13 @@ Game::Game()
 	TTF_Init();
 
 	running = true;
-	count = 0;
+	//count = 0;
+
+	lastTime = 0;
+	deltaTime = 0.0f;
+	frameCount = 0;
+	fps = 0.0f;
+	fpsTimer = SDL_GetTicks();
 
 	//object1.SetDest(100, 100, 75, 75);
 	//object1.SetSource(0, 0, 75, 75);
@@ -24,15 +34,15 @@ Game::Game()
 
 	effect.Load("Retro.wav");
 	effect.Play();
-
 	player.SetImage("Player.png", renderer);
-	player.SetDest(300, 100, 100, 106);
-	idleR = player.CreateCycle(1, 96, 90, 5, 18);
-	idleL = player.CreateCycle(2, 96, 95, 5, 18);
-	walkR = player.CreateCycle(3, 96, 95, 8, 18);
-	walkL = player.CreateCycle(4, 96, 95, 8, 18);
-	shootR = player.CreateCycle(6, 96, 95, 5, 10);
-	shootL = player.CreateCycle(5, 96, 95, 5, 10);
+	player.SetDest(300, 200, NORMAL_PLAYER_WIDTH, NORMAL_PLAYER_HEIGH);
+	player.rb.SetPosition(player.rb, 300, 200);
+	idleR = player.CreateCycle(1, 96, 90, 5, 400);
+	idleL = player.CreateCycle(2, 96, 95, 5, 400);
+	walkR = player.CreateCycle(3, 96, 95, 8, 100);
+	walkL = player.CreateCycle(4, 96, 95, 8, 100);
+	shootR = player.CreateCycle(6, 96, 95, 5, 180);
+	shootL = player.CreateCycle(5, 96, 95, 5, 180);
 	player.SetCurrentAnimation(idleL);
 
 	LoadMap("1.level");
@@ -46,21 +56,23 @@ Game::Game()
 
 void Game::Loop()
 {
-	static int lastTime = 0;
+	lastTime = SDL_GetTicks();
 
 	while (running)
 	{
-		lastFrame = SDL_GetTicks();
-		if (lastFrame >= (lastTime + 1000))
+		Uint32 currentTime = SDL_GetTicks();
+		deltaTime = (currentTime - lastTime) / 1000.0f;
+		lastTime = currentTime;
+
+		frameCount++;
+
+		if (currentTime - fpsTimer >= 1000)
 		{
-			lastTime = lastFrame;
 			fps = frameCount;
 			frameCount = 0;
-			//count++;
+			fpsTimer = currentTime;
+			printf("FPS: %.2f\n", fps);
 		}
-		
-		//printf("fps: %d\n", fps);
-		//printf("MouseX: %d MouseY: %d\n", mouseX, mouseY);
 
 		Renderer();
 		Input();
@@ -82,6 +94,14 @@ void Game::Update()
 		{
 			player.SetCurrentAnimation(walkL);
 		}
+
+		player.rb.SetVelocity(player.rb, VELOCITY_X, 0);
+
+		player.rb.UpdateRigidBody(player.rb, deltaTime);
+
+		printf("X: %f Y: %f\n", player.rb.GetPositionX(player.rb), player.rb.GetPositionY(player.rb));
+
+		player.SetDest(player.rb.GetPositionX(player.rb), player.rb.GetPositionY(player.rb), NORMAL_PLAYER_WIDTH, NORMAL_PLAYER_HEIGH);
 	}
 
 	if (r)
@@ -90,6 +110,14 @@ void Game::Update()
 		{
 			player.SetCurrentAnimation(walkR);
 		}
+
+		player.rb.SetVelocity(player.rb, -VELOCITY_X, 0);
+
+		player.rb.UpdateRigidBody(player.rb, deltaTime);
+
+		printf("X: %f Y: %f\n", player.rb.GetPositionX(player.rb), player.rb.GetPositionY(player.rb));
+
+		player.SetDest(player.rb.GetPositionX(player.rb), player.rb.GetPositionY(player.rb), NORMAL_PLAYER_WIDTH, NORMAL_PLAYER_HEIGH);
 	}
 
 	player.UpdateAnimation();
@@ -108,13 +136,6 @@ void Game::Renderer()
 	DrawFonts("GAMEPLAY", 20, 30, 0, 0, 0);*/
 	Draw(player);
 	DrawMap();
-
-	frameCount++;
-	int timerFPS = SDL_GetTicks() - lastFrame;
-	if (timerFPS < (1000 / 60))
-	{
-		SDL_Delay((1000 / 60) - timerFPS);
-	}
 
 	SDL_RenderPresent(renderer);
 }

@@ -1,2 +1,10 @@
 ﻿  Game.cpp
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector2.hpp(20,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Game.cpp")
+  
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(71,10): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(104,75): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(104,40): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(120,75): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(120,40): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
   Test-Juego.vcxproj -> C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\x64\Debug\Test-Juego.exe
