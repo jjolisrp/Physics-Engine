@@ -5,6 +5,7 @@
 #include <vector>
 #include "Object.hpp"
 #include "RigidBody.hpp"
+#include "Collision.hpp"
 
 class Entity : public Object
 {
@@ -33,6 +34,8 @@ private:
 public:
 
 	RigidBody rb;
+
+	Collision collider;
 
 	Entity();
 

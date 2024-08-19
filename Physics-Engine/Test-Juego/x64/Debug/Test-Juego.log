@@ -1,10 +1,27 @@
-﻿  Game.cpp
+﻿  Entity.cpp
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector2.hpp(20,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Entity.cpp")
+  
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector3.hpp(21,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Entity.cpp")
+  
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Entity.cpp(20,27): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  Game.cpp
 C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector2.hpp(20,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
   (compilando archivo de origen "Game.cpp")
   
-C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(71,10): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(104,75): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(104,40): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(120,75): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(120,40): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
-  Test-Juego.vcxproj -> C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\x64\Debug\Test-Juego.exe
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector3.hpp(21,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Game.cpp")
+  
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(72,10): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(114,74): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(114,39): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+  Main.cpp
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Test-Juego\Game.cpp(124,33): error C2146: error de sintaxis: falta ';' delante del identificador 'i'
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector2.hpp(20,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Main.cpp")
+  
+C:\Users\Joselu\Desktop\Github\Physics-Engine\Physics-Engine\Physics-Engine\Vector3.hpp(21,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Main.cpp")
+  
+  Generando código...

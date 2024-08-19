@@ -7,7 +7,7 @@ const int TILE_SIZE = 25;
 const int NORMAL_PLAYER_WIDTH = 100;
 const int NORMAL_PLAYER_HEIGH = 106;
 const int VELOCITY_X = 50;
-const int VELOCITY_Y = 5;
+const int VELOCITY_Y = 100;
 
 Game::Game()
 {
@@ -37,6 +37,8 @@ Game::Game()
 	player.SetImage("Player.png", renderer);
 	player.SetDest(300, 200, NORMAL_PLAYER_WIDTH, NORMAL_PLAYER_HEIGH);
 	player.rb.SetPosition(player.rb, 300, 200);
+	player.rb.SetAcceleration(player.rb, 0, 9.81f);
+	player.collider.
 	idleR = player.CreateCycle(1, 96, 90, 5, 400);
 	idleL = player.CreateCycle(2, 96, 95, 5, 400);
 	walkR = player.CreateCycle(3, 96, 95, 8, 100);
@@ -95,13 +97,7 @@ void Game::Update()
 			player.SetCurrentAnimation(walkL);
 		}
 
-		player.rb.SetVelocity(player.rb, VELOCITY_X, 0);
-
-		player.rb.UpdateRigidBody(player.rb, deltaTime);
-
-		printf("X: %f Y: %f\n", player.rb.GetPositionX(player.rb), player.rb.GetPositionY(player.rb));
-
-		player.SetDest(player.rb.GetPositionX(player.rb), player.rb.GetPositionY(player.rb), NORMAL_PLAYER_WIDTH, NORMAL_PLAYER_HEIGH);
+		player.rb.SetVelocity(player.rb, VELOCITY_X, player.rb.GetVelocityY(player.rb));
 	}
 
 	if (r)
@@ -111,16 +107,25 @@ void Game::Update()
 			player.SetCurrentAnimation(walkR);
 		}
 
-		player.rb.SetVelocity(player.rb, -VELOCITY_X, 0);
-
-		player.rb.UpdateRigidBody(player.rb, deltaTime);
-
-		printf("X: %f Y: %f\n", player.rb.GetPositionX(player.rb), player.rb.GetPositionY(player.rb));
-
-		player.SetDest(player.rb.GetPositionX(player.rb), player.rb.GetPositionY(player.rb), NORMAL_PLAYER_WIDTH, NORMAL_PLAYER_HEIGH);
+		player.rb.SetVelocity(player.rb, -VELOCITY_X, player.rb.GetVelocityY(player.rb));
 	}
 
+	player.rb.UpdateRigidBody(player.rb, deltaTime);
+
+	player.SetDest(player.rb.GetPositionX(player.rb), player.rb.GetPositionY(player.rb), NORMAL_PLAYER_WIDTH, NORMAL_PLAYER_HEIGH);
+
+	player.rb.SetVelocity(player.rb, 0, player.rb.GetVelocityY(player.rb));
+
+	printf("X: %f Y: %f\n", player.rb.GetPositionX(player.rb), player.rb.GetPositionY(player.rb));
+
 	player.UpdateAnimation();
+
+	fall = 1;
+
+	for (int i = 0; i < map.size() i++)
+	{
+
+	}
 }
 
 void Game::Renderer()

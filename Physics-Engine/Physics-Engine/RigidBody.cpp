@@ -5,13 +5,18 @@ RigidBody::RigidBody()
 	position = { 0.0f, 0.0f };
 	velocity = { 0.0f, 0.0f };
 	acceleration = { 0.0f, 0.0f };
-	mass = 0;
+	mass = 10;
 }
 
 void RigidBody::UpdateRigidBody(RigidBody& rb, float deltaTime)
 {
 	rb.velocity += rb.acceleration * deltaTime;
 	rb.position += rb.velocity * deltaTime;
+}
+
+void RigidBody::ApplyForce(RigidBody& rb, const Vector2& force)
+{
+	rb.acceleration = force / rb.mass;
 }
 
 void RigidBody::SetPosition(RigidBody& rb, float x, float y)

@@ -18,6 +18,11 @@ struct Circle
 
 class Collision
 {
+private:
+
+	Box boxCollider;
+	Circle circleCollider;
+
 public:
 
 	Collision();
@@ -27,6 +32,19 @@ public:
 	bool CheckCircleToCircleCollision(const Circle& circle1, const Circle& circle2);
 
 	bool CheckBoxToCircleCollision(const Circle& circle, const Box& box);
+
+	void SetBoxColliderParameters(Collision& collider, Vector2& max, Vector2& min);
+
+	void SetMax(Collision& collider, Vector2& max);
+
+	void SetMin(Collision& collider, Vector2& min);
+
+
+	Box GetBoxCollider() { return boxCollider; }
+
+	Vector2 GetMax() { return boxCollider.max; }
+
+	Vector2 GetMin() { return boxCollider.min; }
 
 	~Collision();
 };

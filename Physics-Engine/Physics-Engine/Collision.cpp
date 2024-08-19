@@ -37,6 +37,21 @@ bool Collision::CheckBoxToCircleCollision(const Circle& circle, const Box& box)
 	return (distance < circle.radius);
 }
 
+void Collision::SetBoxColliderParameters(Collision& collider, Vector2& max, Vector2& min)
+{
+
+}
+
+void Collision::SetMax(Collision& collider, Vector2& max)
+{
+
+}
+
+void Collision::SetMin(Collision& collider, Vector2& min)
+{
+
+}
+
 Collision::~Collision()
 {
 

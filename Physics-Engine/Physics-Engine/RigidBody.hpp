@@ -16,6 +16,8 @@ public:
 
 	void UpdateRigidBody(RigidBody& rb, float deltaTime);
 
+	void ApplyForce(RigidBody& rb, const Vector2& force);
+
 	void SetPosition(RigidBody& rb, float x, float y);
 
 	void SetVelocity(RigidBody& rb, float vX, float vY);

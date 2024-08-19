@@ -32,6 +32,7 @@ private:
 	float deltaTime, fps;
 	Uint32 lastTime, fpsTimer;
 	int frameCount;
+	bool fall;
 
 public:
 	Game();
