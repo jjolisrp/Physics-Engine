@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\Collision.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\Collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\RigidBody.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\RigidBody.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Game.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CC4DE61-C55F-4A3A-8DE0-D42AFB4C9832}|Test-Juego\\Test-Juego.vcxproj|solutionrelative:Test-Juego\\Entity.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\RigidBody.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\Collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Vector2.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\Vector2.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\RigidBody.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1E093F22-F70A-4163-8259-BE53D3FAB929}|Physics-Engine\\Physics-Engine.vcxproj|solutionrelative:Physics-Engine\\Collision.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.cpp",
               "RelativeDocumentMoniker": "Test-Juego\\Game.cpp",
               "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.cpp",
               "RelativeToolTip": "Test-Juego\\Game.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAAARAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-07T09:28:36.713Z",
               "IsPinned": true,
@@ -60,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Game.hpp",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Game.hpp",
               "RelativeDocumentMoniker": "Test-Juego\\Game.hpp",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Entity.hpp",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Test-Juego\\Entity.hpp",
               "RelativeDocumentMoniker": "Test-Juego\\Entity.hpp",
@@ -86,67 +86,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "RigidBody.cpp",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.cpp",
               "RelativeDocumentMoniker": "Physics-Engine\\RigidBody.cpp",
               "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.cpp",
               "RelativeToolTip": "Physics-Engine\\RigidBody.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-27T11:25:27.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RigidBody.hpp",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.hpp",
               "RelativeDocumentMoniker": "Physics-Engine\\RigidBody.hpp",
               "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\RigidBody.hpp",
               "RelativeToolTip": "Physics-Engine\\RigidBody.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA2AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-07-02T17:01:25.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Collision.cpp",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.cpp",
               "RelativeDocumentMoniker": "Physics-Engine\\Collision.cpp",
               "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.cpp",
               "RelativeToolTip": "Physics-Engine\\Collision.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-12T12:00:55.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Collision.hpp",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.hpp",
               "RelativeDocumentMoniker": "Physics-Engine\\Collision.hpp",
               "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Collision.hpp",
               "RelativeToolTip": "Physics-Engine\\Collision.hpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-07-12T11:51:30.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Vector2.hpp",
               "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Vector2.hpp",
               "RelativeDocumentMoniker": "Physics-Engine\\Vector2.hpp",
               "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\Physics-Engine\\Physics-Engine\\Vector2.hpp",
               "RelativeToolTip": "Physics-Engine\\Vector2.hpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-03T10:21:59.541Z"
+              "WhenOpened": "2024-07-03T10:21:59.541Z",
+              "EditorCaption": ""
             }
           ]
         }
