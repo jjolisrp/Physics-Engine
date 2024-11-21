@@ -1,0 +1,35 @@
+﻿  Collider.cpp
+  RigidBody.cpp
+C:\Users\Alumno\Desktop\PhysicsEngine\PhysicsEngine\Vector3.hpp(15,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  Testeos.cpp
+  (compilando archivo de origen "Collider.cpp")
+  
+C:\Users\Alumno\Desktop\PhysicsEngine\PhysicsEngine\Vector3.hpp(21,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Collider.cpp")
+  
+C:\Users\Alumno\Desktop\PhysicsEngine\PhysicsEngine\Vector2.hpp(14,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Collider.cpp")
+  
+C:\Users\Alumno\Desktop\PhysicsEngine\PhysicsEngine\Vector2.hpp(20,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Collider.cpp")
+  
+C:\Users\Alumno\Desktop\PhysicsEngine\PhysicsEngine\Vector2.hpp(14,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "RigidBody.cpp")
+  
+C:\Users\Alumno\Desktop\PhysicsEngine\PhysicsEngine\Vector2.hpp(20,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "RigidBody.cpp")
+  
+C:\Users\Alumno\Desktop\PhysicsEngine\PhysicsEngine\Vector3.hpp(15,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Testeos.cpp")
+  
+C:\Users\Alumno\Desktop\PhysicsEngine\PhysicsEngine\Vector3.hpp(21,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Testeos.cpp")
+  
+C:\Users\Alumno\Desktop\PhysicsEngine\PhysicsEngine\Vector2.hpp(14,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Testeos.cpp")
+  
+C:\Users\Alumno\Desktop\PhysicsEngine\PhysicsEngine\Vector2.hpp(20,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Testeos.cpp")
+  
+  Generando código...
+  PhysicsEngine.vcxproj -> C:\Users\Alumno\Desktop\PhysicsEngine\x64\Debug\PhysicsEngine.exe
