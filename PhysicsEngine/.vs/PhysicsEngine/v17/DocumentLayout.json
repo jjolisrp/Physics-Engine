@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5E4574DD-CA6D-4D74-8279-5B6755763383}|PhysicsEngine\\PhysicsEngine.vcxproj|C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\Testeos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5E4574DD-CA6D-4D74-8279-5B6755763383}|PhysicsEngine\\PhysicsEngine.vcxproj|solutionrelative:PhysicsEngine\\Testeos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4574DD-CA6D-4D74-8279-5B6755763383}|PhysicsEngine\\PhysicsEngine.vcxproj|C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\Collider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E4574DD-CA6D-4D74-8279-5B6755763383}|PhysicsEngine\\PhysicsEngine.vcxproj|solutionrelative:PhysicsEngine\\Collider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Collider.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\Collider.cpp",
+              "RelativeDocumentMoniker": "PhysicsEngine\\Collider.cpp",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\Collider.cpp",
+              "RelativeToolTip": "PhysicsEngine\\Collider.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T09:12:17.589Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "PhysicsEngine\\Testeos.cpp",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\Testeos.cpp",
               "RelativeToolTip": "PhysicsEngine\\Testeos.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAlAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-21T08:58:27.379Z",
               "EditorCaption": ""

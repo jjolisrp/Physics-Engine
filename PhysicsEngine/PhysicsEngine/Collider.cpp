@@ -30,7 +30,6 @@ bool Collider::CheckBoxToCircleCollision(const Circle& circle, const Box& box)
 	float py = circle.center.y;
 	if (py < box.min.y) { py = box.min.y; }
 	if (py > box.max.y) { py = box.max.y; }
-	//
 
 	float distance = circle.center.GetDistance(Vector2{ px, py });
 
