@@ -1,4 +1,6 @@
 #include <SFML/Graphics.hpp>
+#include "Vector2.hpp"
+#include "RigidBody.hpp"
 
 int main() {
     // Crear una ventana con tamaño 800x600 y título "Prueba SFML"

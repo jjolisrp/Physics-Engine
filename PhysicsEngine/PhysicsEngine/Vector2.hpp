@@ -3,8 +3,9 @@
 
 #include <stdio.h>
 #include <Math.h>
+#include "PhysicsEngineAPI.hpp"
 
-struct Vector2
+struct PHYSICS_ENGINE_API Vector2
 {
 	float x;
 	float y;

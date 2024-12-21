@@ -3,20 +3,21 @@
 
 #include "Vector3.hpp"
 #include "Vector2.hpp"
+#include "PhysicsEngineAPI.hpp"
 
-struct Box
+struct PHYSICS_ENGINE_API Box
 {
 	Vector2 max;
 	Vector2 min;
 };
 
-struct Circle
+struct PHYSICS_ENGINE_API Circle
 {
 	float radius;
 	Vector2 center;
 };
 
-class Collider
+class PHYSICS_ENGINE_API Collider
 {
 public:
 

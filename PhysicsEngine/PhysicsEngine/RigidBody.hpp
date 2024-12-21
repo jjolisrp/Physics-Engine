@@ -2,8 +2,9 @@
 #define __RIGIDBODY_HPP__
 
 #include "Vector2.hpp"
+#include "PhysicsEngineAPI.hpp"
 
-class RigidBody
+class PHYSICS_ENGINE_API RigidBody
 {
 protected:
 	Vector2 position;

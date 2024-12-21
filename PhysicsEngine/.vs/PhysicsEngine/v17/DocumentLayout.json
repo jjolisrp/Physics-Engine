@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\PhysicsEngine\\",
+  "WorkspaceRootPath": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\PhysicsEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2042123-6E2B-4265-A63F-64E9490006DB}|Game\\Game.vcxproj|C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\PhysicsEngine\\Game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2042123-6E2B-4265-A63F-64E9490006DB}|Game\\Game.vcxproj|C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\PhysicsEngine\\Game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2042123-6E2B-4265-A63F-64E9490006DB}|Game\\Game.vcxproj|solutionrelative:Game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\PhysicsEngine\\Game\\Main.cpp",
+              "DocumentMoniker": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\PhysicsEngine\\Game\\Main.cpp",
               "RelativeDocumentMoniker": "Game\\Main.cpp",
-              "ToolTip": "C:\\Users\\jjoli\\OneDrive\\Escritorio\\Github\\Physics-Engine\\PhysicsEngine\\Game\\Main.cpp",
+              "ToolTip": "C:\\Users\\Joselu\\Desktop\\Github\\Physics-Engine\\PhysicsEngine\\Game\\Main.cpp",
               "RelativeToolTip": "Game\\Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-19T20:40:49.936Z",
               "EditorCaption": ""

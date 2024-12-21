@@ -1,2 +1,5 @@
 ﻿  Main.cpp
-  Game.vcxproj -> C:\Users\jjoli\OneDrive\Escritorio\Github\Physics-Engine\PhysicsEngine\x64\Debug\Game.exe
+C:\Users\Joselu\Desktop\Github\Physics-Engine\PhysicsEngine\PhysicsEngine\Vector2.hpp(21,14): warning C4244: 'return': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "Main.cpp")
+  
+LINK : fatal error LNK1104: no se puede abrir el archivo 'PhysicsEngine.lib'
