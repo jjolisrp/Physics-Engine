@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2042123-6E2B-4265-A63F-64E9490006DB}|Game\\Game.vcxproj|C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\Game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2042123-6E2B-4265-A63F-64E9490006DB}|Game\\Game.vcxproj|solutionrelative:Game\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4574DD-CA6D-4D74-8279-5B6755763383}|PhysicsEngine\\PhysicsEngine.vcxproj|C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\RigidBody.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E4574DD-CA6D-4D74-8279-5B6755763383}|PhysicsEngine\\PhysicsEngine.vcxproj|solutionrelative:PhysicsEngine\\RigidBody.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2042123-6E2B-4265-A63F-64E9490006DB}|Game\\Game.vcxproj|C:\\USERS\\ALUMNO\\DESKTOP\\PHYSICS-ENGINE\\PHYSICSENGINE\\PHYSICSENGINE\\VECTOR2.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2042123-6E2B-4265-A63F-64E9490006DB}|Game\\Game.vcxproj|solutionrelative:PHYSICSENGINE\\VECTOR2.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E4574DD-CA6D-4D74-8279-5B6755763383}|PhysicsEngine\\PhysicsEngine.vcxproj|C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\Testeos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5E4574DD-CA6D-4D74-8279-5B6755763383}|PhysicsEngine\\PhysicsEngine.vcxproj|solutionrelative:PhysicsEngine\\Testeos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Testeos.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\Testeos.cpp",
+              "RelativeDocumentMoniker": "PhysicsEngine\\Testeos.cpp",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\Testeos.cpp",
+              "RelativeToolTip": "PhysicsEngine\\Testeos.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-20T09:55:28.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vector2.hpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\Vector2.hpp",
+              "RelativeDocumentMoniker": "PhysicsEngine\\Vector2.hpp",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\Vector2.hpp",
+              "RelativeToolTip": "PhysicsEngine\\Vector2.hpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-20T09:52:48.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RigidBody.hpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\RigidBody.hpp",
+              "RelativeDocumentMoniker": "PhysicsEngine\\RigidBody.hpp",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\PhysicsEngine\\RigidBody.hpp",
+              "RelativeToolTip": "PhysicsEngine\\RigidBody.hpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-20T09:52:41.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\Game\\Main.cpp",
+              "RelativeDocumentMoniker": "Game\\Main.cpp",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Physics-Engine\\PhysicsEngine\\Game\\Main.cpp",
+              "RelativeToolTip": "Game\\Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-19T20:40:49.936Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

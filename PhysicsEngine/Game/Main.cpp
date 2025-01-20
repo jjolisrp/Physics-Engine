@@ -14,6 +14,13 @@ int main() {
             // Si el evento es de tipo "cerrar la ventana", salir del bucle
             if (event.type == sf::Event::Closed)
                 window.close();
+
+            Vector2 vector;
+
+            vector.x = 50;
+            vector.y = 50;
+
+            printf("length %f", vector.GetLength());
         }
 
         // Limpiar la ventana con el color negro
